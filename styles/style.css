@@ -1,0 +1,93 @@
+@font-face {
+    font-family: figtree;
+    src: url(../assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: figtree;
+}
+
+body {
+    background-color: #f5d04e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: #3e52a3;
+}
+
+.container {
+    position: absolute;
+    width: 360px;
+    height: 480px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 10px 10px;
+}
+
+.container .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+button {
+    background-color: #f5d04e;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0px 10px;
+    font-weight: 600;
+}
+
+.PublishDate {
+    font-weight: 400;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+h3 {
+    margin-left: 10px;
+    color: black;
+    cursor: pointer;
+    &:hover {
+        color: #f5d04e;
+    }
+}
+
+.BoxContent {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: darkgrey;
+}
+
+.authorContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 18px;
+
+    img {
+        width: 40px;
+    }
+    .author {
+        margin-left: 10px;
+        font-weight: 600;
+    }
+}
